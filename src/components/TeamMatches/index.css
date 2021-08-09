@@ -1,0 +1,48 @@
+.RCB {
+  background-image: linear-gradient(to top, #0f172a, #a4261d);
+}
+.KKR {
+  background-image: linear-gradient(to top, #0f172a, #5755a7);
+}
+.KXP {
+  background-image: linear-gradient(to top, #0f172a, #d91c1f);
+}
+.CSK {
+  background-image: linear-gradient(to top, #0f172a, #f7db00);
+}
+.RR {
+  background-image: linear-gradient(to top, #0f172a, #da237b);
+}
+.MI {
+  background-image: linear-gradient(to top, #0f172a, #13418b);
+}
+.SH {
+  background-image: linear-gradient(to top, #0f172a, #f26d22);
+}
+.DC {
+  background-image: linear-gradient(to top, #0f172a, #4f5db0);
+}
+.team-matches-container {
+  padding: 30px;
+  min-height: 100vh;
+  background-size: cover;
+}
+.banner {
+  width: 100%;
+  height: 300px;
+  margin-top: 40px;
+}
+.latest-desc {
+  color: #ffffff;
+}
+.match-card-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+@media screen and (max-width: 575px) {
+  .match-card-container {
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+}

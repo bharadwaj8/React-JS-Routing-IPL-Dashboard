@@ -1,0 +1,64 @@
+.latest-match-container {
+  background-color: #1e293b;
+  padding: 10px 20px 0px 20px;
+  border-radius: 10px;
+  display: grid;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  grid-template-columns: auto auto auto;
+  align-content: center;
+  grid-gap: 10px;
+  height: 10%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .latest-match-container {
+    grid-template-columns: auto auto;
+  }
+}
+.latest-match-left {
+  margin-top: 70px;
+  text-align: left;
+  height: 70%;
+  display: inline;
+}
+
+.team-heading {
+  font-size: 35px;
+  margin-top: 10px;
+}
+.team-date {
+  font-size: 25px;
+}
+.team-venue {
+  font-size: 20px;
+}
+.team-result {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.latest-team-logo {
+  height: 60%;
+  width: 200px;
+  margin-top: 70px;
+}
+.latest-match-right {
+  text-align: right;
+  height: 90%;
+}
+@media screen and (max-width: 575px) {
+  .latest-match-right {
+    margin-top: 20px;
+    text-align: left;
+    border-top: 2px solid #475569;
+  }
+}
+.sub-heading {
+  font-size: 25px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.value {
+  font-size: 15px;
+}
